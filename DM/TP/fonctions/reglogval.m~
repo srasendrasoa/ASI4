@@ -1,7 +1,5 @@
 function ypred = reglogval(X,theta)
-% X = Matrices des données
-% theta = paramètre (vecteur)
-% ypred = le vecteur des labels prédits
+% retourne 
 n = size(X,1);
 phi_t = [ones(n,1) X];
 
